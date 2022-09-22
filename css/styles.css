@@ -1,0 +1,126 @@
+body{
+    margin: 0em;
+    padding: 0em;
+height: 100vh;
+width: 100vw;
+}
+
+.general{
+    background-color: darkgreen;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase{
+background-color: darkkhaki;
+height: 41.3em;
+width: 45em;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.bichos-top{
+    
+    height: 10em;
+    width: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.bichos-center{
+    
+    
+    height: 10em;
+    width: 20em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bichos-bottom{
+    
+    height: 10em;
+    width: 20em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bichos{
+    background-color: white;
+    height: 5em;
+    width: 5em;
+}
+.rana-ojos{
+
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content: space-around;
+}
+
+.ojo1{
+
+    background-color: darkgreen;
+
+    height: 2em;
+    width: 2em;
+
+    border-radius: 5em 5em 0em 0em;
+}
+
+.ojo2{
+    background-color: darkgreen;
+
+
+    height: 2em;
+    width: 3em;
+
+    border-radius: 5em 5em 0em 0em;
+}
+
+.rana{
+    background-color: darkgoldenrod;
+    height: 41.3em;
+    width: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rana-body{
+    background-color: green;
+
+    height: 15em;
+    width: 15em;
+
+    border-radius: 10em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.barriga{
+    background-color: lightgreen;
+    height: 8em;
+    width: 8em;
+    margin: .5em;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
