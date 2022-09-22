@@ -19,7 +19,7 @@ width: 100vw;
 
 .showcase{
 background-color: darkkhaki;
-height: 41.3em;
+height: 42.3em;
 width: 45em;
 display: flex;
 flex-direction: column;
@@ -62,7 +62,7 @@ justify-content: center;
 }
 
 .bichos{
-    background-color: white;
+    background-color:transparent;
     height: 5em;
     width: 5em;
 }
@@ -71,7 +71,7 @@ justify-content: center;
 
     background-color: darkgoldenrod;
 
-    height: 41.3em;
+    height: 42.3em;
     width: 35em;
     display: flex;
     flex-direction: column;
