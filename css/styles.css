@@ -66,36 +66,11 @@ justify-content: center;
     height: 5em;
     width: 5em;
 }
-.rana-ojos{
-
-   display: flex;
-   flex-direction: row;
-   align-items: flex-end;
-   justify-content: space-around;
-}
-
-.ojo1{
-
-    background-color: darkgreen;
-
-    height: 2em;
-    width: 2em;
-
-    border-radius: 5em 5em 0em 0em;
-}
-
-.ojo2{
-    background-color: darkgreen;
-
-
-    height: 2em;
-    width: 3em;
-
-    border-radius: 5em 5em 0em 0em;
-}
 
 .rana{
+
     background-color: darkgoldenrod;
+
     height: 41.3em;
     width: 35em;
     display: flex;
@@ -103,24 +78,17 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 }
-.rana-body{
-    background-color: green;
 
-    height: 15em;
-    width: 15em;
+.rana-svg{
 
-    border-radius: 10em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+    background-image: url(../svg/rana_cerrada.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 19em;
+    width: 19em;
 }
 
-.barriga{
-    background-color: lightgreen;
-    height: 8em;
-    width: 8em;
-    margin: .5em;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+.rana-svg:hover{
+    background-image: url(../svg/rana_abierta.svg);
+    transition: .2s ease;
 }
