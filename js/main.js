@@ -3,7 +3,7 @@ let bocaAbierta= document.getElementById("boca-abierta");
 
 
 bocaAbierta.style.display='none';
-/* bocaAbierta.style.display='block'; */ 
+ 
 
 let numeroVida = document.getElementById("numeroVida");
 let vidaTotal = 0;
@@ -55,7 +55,26 @@ let bichos =[
 
 const drag = (ev) => {
     ev.dataTransfer.setData("text", ev.target.id);
-
-    // console.log("arrastrando...", ev.target.id);
+    bocaAbierta.style.display='block';
+     
 };
- 
+
+const allowDrop = (ev) => {
+    ev.preventDefault();
+};
+const drop = (ev) => {
+    ev.preventDefault();
+    let data = ev.dataTransfer.getData("text");
+
+    let bichoS = bichos.find(bicho => {
+        return bicho.id == data
+
+    });
+    console.log(bichoS);
+
+    vidaTotal += bichoS.vida;
+
+    numeroVida.innerHTML = `${vidaTotal}`;
+
+    bocaAbierta.style.display='none';
+};
