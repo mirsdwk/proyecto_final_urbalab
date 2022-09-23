@@ -124,7 +124,7 @@ justify-content: center;
 
     border-radius: 10em;
 
-    background-image: url(../svg/rana_cerrada.svg);
+    /*background-image: url(../svg/rana_cerrada.svg);*/
     background-repeat: no-repeat;
     background-size: contain;
     height: 19em;
@@ -132,11 +132,16 @@ justify-content: center;
     position:absolute;
     z-index: 3;
 }
-
-.rana-svg:hover{
+#boca-cerrada{
+    background-image: url(../svg/rana_cerrada.svg);
+}
+#boca-abierta{
+    background-image: url(../svg/rana_abierta.svg);
+}
+/*.rana-svg:hover{
     background-image: url(../svg/rana_abierta.svg);
     transition: .2s ease;
-}
+}*/
 
 .bicho-tarro{
     display: flex;
