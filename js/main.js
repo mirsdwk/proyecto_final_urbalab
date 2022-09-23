@@ -44,7 +44,7 @@ let bichos =[
     vida: 4
 },
 {
-    id:"araña",
+    id:"arana",
     vida: -1
 },
 {
