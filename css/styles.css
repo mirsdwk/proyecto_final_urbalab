@@ -79,6 +79,8 @@ justify-content: center;
     background-color:transparent;
     height: 5em;
     width: 5em;
+    z-index:2;
+   
 }
 
 .rana{
@@ -132,3 +134,24 @@ justify-content: center;
     background-image: url(../svg/rana_abierta.svg);
     transition: .2s ease;
 }
+
+.bicho-tarro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+
+.tarro{
+    
+    height: 7.5em;
+    width: 7.5em;
+    position: absolute;
+    margin-top: -.5em;
+    z-index: 1;
+
+}
+
+
