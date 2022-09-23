@@ -14,44 +14,53 @@
         <div class="showcase">
             <div class="bichos-top">
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/avispa.svg" id="avispa" alt="wasp" draggable="true" ondragstart="drag(event)">
+                    <img class="bichos" src="svg/avispa.svg" id="avispa" alt="wasp" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/mosca.svg" id="mosca" alt="">
+                    <img class="bichos" src="svg/mosca.svg" id="mosca" alt="" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/escarab.svg" alt="">
+                    <img class="bichos" src="svg/escarab.svg" id="escarab" alt="" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
 
             </div>
             <div class="bichos-center">
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/mariquita.svg" alt="">
+                    <img class="bichos" src="svg/mariquita.svg" id="mariquita" alt="" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/garrapata.svg" alt="">
+                    <img class="bichos" src="svg/garrapata.svg" id="garrapata" alt="" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/libelula.svg" alt="">
+                    <img class="bichos" src="svg/libelula.svg" id="libelula" alt="" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
             </div>
             <div class="bichos-bottom">
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/escarabajo.svg" alt="">
+                    <img class="bichos" src="svg/escarabajo.svg" id="escarabajo" alt="" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/araña.svg" alt="">
+                    <img class="bichos" src="svg/araña.svg" id="araña" alt="" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
                 <div class="bicho-tarro">
-                    <img class="bichos" src="svg/mariposa.svg" alt="">
+                    <img class="bichos" src="svg/mariposa.svg" id="mariposa" alt="" draggable="true"
+                        ondragstart="drag(event)">
                     <img class="tarro" src="svg/tarro.svg" alt="">
                 </div>
             </div>
@@ -59,14 +68,18 @@
 
 
 
-        <div class="rana">
+        <div class="rana" id="ranita" ondrop="drop(event)" ondragover="allowDrop(event)">
             <img class="flor" src="svg/waterlily.svg" alt="">
             <div class="hoja"></div>
             <div class="rana-svg" id="boca-cerrada"></div>
             <div class="rana-svg" id="boca-abierta"></div>
+            <div id="totalRana" class="totalVida">
+                <p class="numeroRana" id="numeroVida">0</p>
+            </div>
+            
         </div>
 
-       
+
 
 
 
