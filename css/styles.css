@@ -4,6 +4,7 @@ body{
     height: 100vh;
     width: 100vw;
 }
+
 #pantalla-final{
     display: block;
     width: 100vw;
@@ -12,6 +13,20 @@ body{
     position:absolute;
     top: 0;
     left:0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#game-over{
+    font-size: 2em;
+    padding: .5em;
+    margin:6.5em;
+    margin-top: 16em;
+    color:whitesmoke;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 2em;
+    z-index: 5;
 }
 .general{
     background-color:#64565a;

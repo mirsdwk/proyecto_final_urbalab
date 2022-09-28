@@ -1,7 +1,8 @@
 let ranaMal= document.getElementById("rana-mal");
 let bocaCerrada= document.getElementById("boca-cerrada");
 let bocaAbierta= document.getElementById("boca-abierta");
-
+let gameOver = document.getElementById ("game-over")
+gameOver.style.display='none'
 ranaMal.style.display='none';
 bocaAbierta.style.display='none';
  
@@ -86,6 +87,7 @@ const pulsador = () => {
     vidaTotal = 0;
     numeroVida.innerHTML = `${vidaTotal}`;
     ranaMal.style.display='none';
+    gameOver.style.display='none';
 };
 
 
@@ -95,8 +97,11 @@ function muerte() {
     if (vidaTotal<=0){
      ranaMal.style.display='block'
      console.log("la rana ha muerto")
+     gameOver.style.display='block'
+     
     }else{
         bocaCerrada.style.display='block'
+
     }
 
 }
