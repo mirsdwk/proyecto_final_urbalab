@@ -95,6 +95,9 @@ function muerte() {
     if (vidaTotal<=0){
      ranaMal.style.display='block';
      gameOver.style.display='block';
+     setTimeout(() => {
+         pulsador() 
+     }, 2000);
      
     }else{
         bocaCerrada.style.display='block';
