@@ -90,18 +90,15 @@ const pulsador = () => {
     gameOver.style.display='none';
 };
 
-
-
 function muerte() {
     
     if (vidaTotal<=0){
-     ranaMal.style.display='block'
-     console.log("la rana ha muerto")
-     gameOver.style.display='block'
+     ranaMal.style.display='block';
+     gameOver.style.display='block';
      
     }else{
-        bocaCerrada.style.display='block'
+        bocaCerrada.style.display='block';
 
-    }
+    };
 
-}
+};
