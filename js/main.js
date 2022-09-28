@@ -1,7 +1,8 @@
+let ranaMal= document.getElementById("rana-mal");
 let bocaCerrada= document.getElementById("boca-cerrada");
 let bocaAbierta= document.getElementById("boca-abierta");
 
-
+ranaMal.style.display='none';
 bocaAbierta.style.display='none';
  
 
@@ -14,7 +15,6 @@ let bichos =[
     id: "avispa",
     vida: -10
 },
-
 {
     id: "mosca",
     vida: 1
@@ -55,6 +55,7 @@ let bichos =[
 
 const drag = (ev) => {
     ev.dataTransfer.setData("text", ev.target.id);
+
     bocaAbierta.style.display='block';
      
 };
@@ -62,6 +63,7 @@ const drag = (ev) => {
 const allowDrop = (ev) => {
     ev.preventDefault();
 };
+
 const drop = (ev) => {
     ev.preventDefault();
     let data = ev.dataTransfer.getData("text");
@@ -70,11 +72,31 @@ const drop = (ev) => {
         return bicho.id == data
 
     });
-    console.log(bichoS);
+    
 
     vidaTotal += bichoS.vida;
 
     numeroVida.innerHTML = `${vidaTotal}`;
 
     bocaAbierta.style.display='none';
+    muerte();
 };
+
+const pulsador = () => {
+    vidaTotal = 0;
+    numeroVida.innerHTML = `${vidaTotal}`;
+    ranaMal.style.display='none';
+};
+
+
+
+function muerte() {
+    
+    if (vidaTotal<=0){
+     ranaMal.style.display='block'
+     console.log("la rana ha muerto")
+    }else{
+        bocaCerrada.style.display='block'
+    }
+
+}
