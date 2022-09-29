@@ -3,7 +3,7 @@
 
 21/09/2022 - 29/09/2022
 
-Juego hecho con **Drag & Drop** de **JS** Vanilla
+Showcase hecho con **JS** Vanilla
 
 ![RANA1](img/rana%20normal.png)
 
@@ -25,15 +25,18 @@ Al darnos libre elección del tema, decidí crear un "juego" en el que se arrast
 
 ## Cómo funciona: 
 
-Dependiendo del bicho que arrastres se le sumará vida o se le restará como en el caso de la abeja, la garrapata o la araña.
-Si la vida de la rana llega a 0 o menos...
+El showcase contiene nueve bichos los cuales se pueden arrastrar hacia la rana y sumarle o restarle vida, dependiendo del bicho que le arrastres. 
+
+Por ejemplo, en el caso de la abeja, la garrapata y la araña, una vez la rana se los coma perderá vida.
+
+Si la vida de la rana llega a 0 o menos la rana muere. 
 
 ![RANA3](img/rana%20mal.png)
 
 ## Reset
 
 Uno de los requisitos obligatorios para el proyecto fué el **botón de vaciar carrito** que se ve por debajo de la vida de la rana. 
-Además del botón, he implementado un **reset automático** a los dos segundos de terminar (mal) el juego.
+Además del botón, he implementado un **reset automático** a los dos segundos de terminar el juego.
 
 
 ## A mejorar en un futuro:
@@ -44,6 +47,6 @@ Además del botón, he implementado un **reset automático** a los dos segundos 
 
 ## Contacto:
 
-Puedes contactar conmigo por vía gmail: mirsdwk@gmai.com
+Puedes contactar conmigo por vía gmail: mirsdwk@gmail.com
 y ver todos mis proyectos en mi perfil de github: https://github.com/mirsdwk
 
