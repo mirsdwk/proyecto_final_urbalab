@@ -22,7 +22,7 @@ Al darnos libre elección del tema, decidí crear un "juego" en el que se arrast
 
 ## Cómo funciona: 
 
-Dependiendo del bicho de arrastres se le sumará vida o se le restará como en el caso de la abeja, la garrapata o la araña.
+Dependiendo del bicho que arrastres se le sumará vida o se le restará como en el caso de la abeja, la garrapata o la araña.
 Si la vida de la rana llega a 0 o menos...
 
 ![RANA3](img/rana%20mal.png)
