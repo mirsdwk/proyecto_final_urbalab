@@ -2,6 +2,7 @@ let ranaMal= document.getElementById("rana-mal");
 let bocaCerrada= document.getElementById("boca-cerrada");
 let bocaAbierta= document.getElementById("boca-abierta");
 let gameOver = document.getElementById ("game-over")
+
 gameOver.style.display='none'
 ranaMal.style.display='none';
 bocaAbierta.style.display='none';
